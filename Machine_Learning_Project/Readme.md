@@ -151,7 +151,7 @@ Investigate the impact of news on price movements using text analysis and natura
 
 # 5. Machine Learning Model Selection
 
-## Suitable Models
+## 5.1 Suitable Models
 
 - Decision Tree: Good for interpretation and visualization, helps understand which factors are most important for price prediction.
 
@@ -159,7 +159,7 @@ Investigate the impact of news on price movements using text analysis and natura
 
 - Recurrent Neural Networks (RNN): Effective for time series analysis, especially when the sequential nature of the data is important.
 
-## Model Selection Rationale
+## 5.2 Model Selection Rationale
 
 A gradient boosting model (e.g. XGBoost) is the most suitable for this task due to its ability to handle large amounts of data and detect complex relationships. This model also provides high accuracy and allows easy hyperparameter tuning to improve the results.
 
@@ -191,7 +191,7 @@ Cross-Validation: Use cross-validation to more reliably evaluate the performance
 
 # 7. Model Deployment
 
-## Deployment Strategy
+## 7.1 Deployment Strategy
 
 Build the Interface: Develop a web application (e.g. using Flask or Django) that will interact with the model and allow users to make predictions.
 
@@ -199,7 +199,7 @@ Integration with Trading Systems: Integrate the model with existing trading syst
 
 User Training: Provide training to traders and investors on how to use the model and interpret its forecasts.
 
-## Benefits of Deployment
+## 7.2 Benefits of Deployment
 
 Optimize Trading Decisions: Users will be able to make more informed decisions on buying/selling S&P 500 futures.
 
@@ -207,7 +207,7 @@ Reduce Risks: The model will help minimize the risks associated with trading by 
 
 Increase Profits: More accurate forecasts can lead to increased profits for traders and investors.
 
-# Monitor and Improve the Model
+# 8. Monitor and Improve the Model
 
 Monitoring System: Set up a system to monitor the model’s performance in real time and identify deviations.
 
@@ -215,6 +215,6 @@ Regular Data Updates: Collect new data and regularly update the model to keep it
 
 User Feedback: Collect user feedback to improve the interface and functionality of the model.
 
-# Conclusion
+# 9. Conclusion
 
 Developing and implementing a machine learning model to predict S&P 500 futures prices is a challenging but feasible task that can significantly improve trading decisions and trading efficiency. Following the outline presented, it is possible to create a robust model that will benefit traders and investors.
